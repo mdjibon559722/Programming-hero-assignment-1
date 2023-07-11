@@ -172,5 +172,30 @@ image{
 
 /* Subscribe */
 .Subscribe{
-    
+    width: 70%;
+    padding-left: 50px;
 }
+.Subscribe-img {
+    background: url("Flower Asset/Rectangle 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    width: 1204px;
+    height: 265px;
+    margin-top: 90px;
+    margin-left: 136px;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 121px;
+  }
+  
+
+  .Subscribe-img h1{
+    font-size: 40px;
+  }
+
+  .Subscribe-img input {
+    height: 30px;
+    width: 667px;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 64px;
+  }
