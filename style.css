@@ -21,7 +21,8 @@
 h2{
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+
 }
 
 
@@ -32,12 +33,14 @@ h2{
 header{
     background: rgba(229, 84, 115, 0.10);
 }
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    background-color: beige;
     padding: 0 100px 0;
-}
+    position: sticky;
+    top: 0;
+    background: rgba(229, 84, 115, 0.10);
+  }
 
 nav>h1{
     padding-top: 12px;
@@ -102,7 +105,7 @@ image{
     display: flex;
     justify-content: space-around;
     width: 71%;
-    padding-left: 205px;
+    padding-left: 225px;
     
 
 }
@@ -110,20 +113,89 @@ image{
 .Features-img img {
   display: block;
   text-align: center;
-  border-top-right-radius: 40%;
-  border-top-left-radius: 40%;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 30%;
+  width: 300px;
+  height: 331px;
+}
+
+
+.Features-img a {
+    /* padding: 0 100px 0; */
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+  }
+
+  /* Support */
+
+.Facilities {
+    display: flex;
+    gap: 192px;
+    margin-left: 257px;
+    background: wheat;
+    width: 990px;
+    padding: 5px 20px 5px;
+    border: 3px dotted;
+    border-radius: 25px;
+    margin-top: 50px;
+  }
+
+.support{
+    text-align: center;
 }
 
 
 
-.Features-img a {
-    padding: 0 100px 0;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
+/* Shop now */
+#Shop-now {
+    height: 470px;
+    width: 71%;
+    padding-left: 217px;
   }
 
+  .Shop-now h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0 40px;
+  }
+#Shop-now h4{
+    font-size: 25px;
+  }
+.Shop-now img{
+    width: 193px;
+    height: 185px;
+    border-radius: 5px;
+}
 
+.shop-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop-img{
+   
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 289px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px wheat;
+}
+
+.shop-img button {
+    padding: 11px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    /* margin-top: 26px; */
+  }
+
+  .shop-img button:hover{
+    background-color: rgb(213, 200, 200);
+    color: rgb(1, 17, 17);
+  }
   /* Deals */
 
   .Deals{
@@ -139,6 +211,7 @@ image{
     gap: 88px;
     padding-left: 255px;
     padding-top: 40px;
+    margin-top: 50px;
 }
 
 .Deals-text {
@@ -174,6 +247,7 @@ image{
 .Subscribe{
     width: 70%;
     padding-left: 50px;
+    margin-bottom: 60px;
 }
 .Subscribe-img {
     background: url("Flower Asset/Rectangle 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
@@ -198,4 +272,16 @@ image{
     border-radius: 20px;
     padding: 10px;
     margin-top: 64px;
+  }
+
+  /* footer */
+
+  footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+  }
+  .footer-text{
+    padding-top: 40px;
   }
